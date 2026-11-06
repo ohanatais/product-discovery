@@ -103,7 +103,7 @@ If you're already mid-process, jump to wherever you are. But if something feels 
 - [`prd`](skills/prd) — write a four-section PRD built for solo builders
 - [`product-north`](skills/product-north) — the contrarian product-director layer over the whole sequence; call it anytime the direction isn't obvious
 
-A PT-BR introductory guide that walks through the stages module by module lives in [`GUIA-PRODUCT-DISCOVERY.md`](GUIA-PRODUCT-DISCOVERY.md). *(An opportunity-mapping module for the guide is coming — the skill itself is already available.)*
+An introductory guide that walks through the stages module by module lives in [`GUIDE-PRODUCT-DISCOVERY.md`](GUIDE-PRODUCT-DISCOVERY.md). *(An opportunity-mapping module for the guide is coming — the skill itself is already available.)*
 
 ---
 

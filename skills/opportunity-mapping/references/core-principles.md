@@ -1,114 +1,115 @@
 # Core Principles
 
-Carregado por todos os modos. Governam como o mapeamento de oportunidades é conduzido,
-independente da profundidade. Herdam a filosofia das outras skills de product-discovery
-e adicionam a doutrina de canal, que é exclusiva desta skill.
+Loaded by every mode. They govern how opportunity mapping is conducted, regardless of
+depth. They inherit the philosophy of the other product-discovery skills and add the
+channel doctrine, which is unique to this skill.
 
-## A inversão fundamental
+## The fundamental inversion
 
-Toda ferramenta de ideação parte da ideia e pergunta "isso é bom?". Esta parte do
-**fundador** e pergunta "o que é bom PARA VOCÊ?". A ideia é a variável de saída, não a
-de entrada. Consequência prática: a mesma oportunidade recebe scores diferentes para
-fundadores diferentes, e isso é uma feature, não um bug. Nunca avalie uma oportunidade
-em abstrato — sempre contra o perfil específico na mesa.
+Every ideation tool starts from the idea and asks "is this good?". This one starts from
+the **founder** and asks "what is good FOR YOU?". The idea is the output variable, not
+the input. Practical consequence: the same opportunity gets different scores for
+different founders, and that's a feature, not a bug. Never evaluate an opportunity in
+the abstract; always against the specific profile on the table.
 
-## Doutrina de canal (o coração da skill)
+## Channel doctrine (the heart of the skill)
 
-**Um produto excelente num canal que o fundador não alcança é um produto invisível.**
+**An excellent product in a channel the founder can't reach is an invisible product.**
 
-- Distribuição é a primeira coisa a checar, não a última. Antes de se empolgar com uma
-  oportunidade, pergunte: como ESTE fundador, com o alcance que tem HOJE, faz alguém
-  descobrir isso?
-- "Build it and they'll come" não é um canal. "Marketing" não é um canal. Um canal é
-  concreto: SEO programático, um subreddit específico, um loop de teardown público,
-  um free-tool que vira pago, uma comunidade onde o fundador já está.
-- Avalie o canal contra o alcance REAL do fundador, nunca um aspiracional. Se o melhor
-  caminho exige uma audiência que ele não tem (ou uma atividade que ele recusou), o
-  canal não existe para ele — por mais que exista para outro.
-- Composição vs. aluguel: prefira canais onde cada esforço deixa um ativo que compõe
-  (conteúdo indexável, comunidade, SEO) sobre os que param de dar fruto quando o
-  fundador para (ads, posts efêmeros).
-- O melhor caso possível: o produto e a distribuição são a mesma coisa — construir em
-  público, ou um teardown que é simultaneamente conteúdo, prova de competência e
-  lead-magnet. Quando o build É o marketing, o Channel Fit é máximo.
+- Distribution is the first thing to check, not the last. Before getting excited about
+  an opportunity, ask: how does THIS founder, with the reach they have TODAY, get
+  someone to discover this?
+- "Build it and they'll come" is not a channel. "Marketing" is not a channel. A channel
+  is concrete: programmatic SEO, a specific subreddit, a public teardown loop, a free
+  tool that turns paid, a community the founder is already in.
+- Evaluate the channel against the founder's REAL reach, never an aspirational one. If
+  the best path requires an audience they don't have (or an activity they've refused),
+  the channel doesn't exist for them, however much it exists for someone else.
+- Compounding vs. renting: prefer channels where every effort leaves an asset that
+  compounds (indexable content, community, SEO) over ones that stop bearing fruit when
+  the founder stops (ads, ephemeral posts).
+- The best possible case: the product and the distribution are the same thing. Building
+  in public, or a teardown that is simultaneously content, proof of competence and a
+  lead magnet. When the build IS the marketing, Channel Fit is maxed out.
 
-## Sobre a vantagem injusta
+## On unfair advantage
 
-- Separe **vantagem** de **interesse**. Querer aprender X não é ter vantagem em X — é
-  uma razão para escolher, mas entra em "o que quero aprender", não em "minha vantagem".
-- Vantagens reais: domínio profundo, experiência vivida, acesso a uma comunidade ou a
-  dados, uma skill rara, uma audiência existente, um ângulo que os outros não enxergam.
-- Cuidado com a "vantagem imaginada": "eu entendo o problema" raramente é vantagem —
-  quase todo mundo entende o próprio problema. Vantagem é o que poucos têm.
-- A melhor oportunidade joga no campo do fundador e fora do campo dos concorrentes. Se
-  o fundador é forte em produto e fraco em engenharia, prefira problemas onde o senso
-  de produto decide e a engenharia é commodity — não o inverso.
+- Separate **advantage** from **interest**. Wanting to learn X isn't having an
+  advantage in X. It's a reason to choose, but it goes under "what I want to learn,"
+  not "my advantage."
+- Real advantages: deep domain knowledge, lived experience, access to a community or to
+  data, a rare skill, an existing audience, an angle others don't see.
+- Watch out for "imagined advantage": "I understand the problem" is rarely an
+  advantage. Almost everyone understands their own problem. An advantage is what few
+  people have.
+- The best opportunity plays on the founder's home turf and off the competitors'. If the
+  founder is strong in product and weak in engineering, prefer problems where product
+  sense decides and engineering is a commodity, not the reverse.
 
-## Sobre demanda (qualidade de evidência)
+## On demand (quality of evidence)
 
-**Comportamento > preferência declarada.**
-- Forte: "pago $20/mês pelo X porque resolve Y"; "larguei o Z quando aconteceu W";
-  "mantenho uma planilha porque nenhuma ferramenta faz isso".
-- Fraco: "adoraria um app que faz Z"; "isso parece útil".
-- Inútil: "que ideia legal", "boa sorte".
+**Behavior > stated preference.**
+- Strong: "I pay $20/month for X because it solves Y"; "I dropped Z when W happened";
+  "I keep a spreadsheet because no tool does this."
+- Weak: "I'd love an app that does Z"; "this seems useful."
+- Useless: "what a cool idea," "good luck."
 
-Planilhas e workarounds manuais são dos sinais mais fortes que existem — significam
-que a dor é real o suficiente para a pessoa trabalhar contra ela na mão.
+Spreadsheets and manual workarounds are among the strongest signals there are. They mean
+the pain is real enough for the person to fight it by hand.
 
-**Hierarquia de fontes (mais forte → mais fraca):**
-1. Comportamento direto: páginas de pricing, volume de reviews, downloads, gente pagando
-2. Evidência de comunidade: threads de Reddit/IH/HN, reclamações em fórum
-3. Relatórios com metodologia exposta
-4. Cobertura de imprensa (tratar como marketing salvo fontes primárias)
-5. Claims de fundador/empresa (quase sempre otimistas — descontar muito)
+**Source hierarchy (strongest → weakest):**
+1. Direct behavior: pricing pages, review volume, downloads, people paying
+2. Community evidence: Reddit/IH/HN threads, forum complaints
+3. Reports with exposed methodology
+4. Press coverage (treat as marketing unless it cites primary sources)
+5. Founder/company claims (almost always optimistic; discount heavily)
 
-**Produtos mortos são metade do aprendizado.** Para cada espaço, pergunte: o que já
-morreu aqui e por quê? Saturação, dependência de plataforma, churn alto, ICP difuso,
-unit economics ruins — cada morte é uma lição sobre o que evitar.
+**Dead products are half the learning.** For every space, ask: what has already died
+here, and why? Saturation, platform dependency, high churn, a fuzzy ICP, bad unit
+economics: each death is a lesson about what to avoid.
 
-## Sobre tamanho de mercado (quando aparecer)
+## On market size (when it comes up)
 
-Trabalhe de trás pra frente, do comportamento, não da população. "1 bilhão de pessoas
-× 1%" é fantasia. "83M de usuários de LinkedIn no Brasil × fração engajada × fração que
-pagaria × conversão histórica" é uma estimativa com premissas nomeáveis e testáveis.
-Sempre nomeie a premissa que, se errada, derruba o número. Nunca invente números — em
-`explore`, diga "não dá pra estimar com confiança sem pesquisa".
+Work backwards, from behavior, not from population. "1 billion people × 1%" is fantasy.
+"83M LinkedIn users in Brazil × engaged fraction × fraction that would pay × historical
+conversion" is an estimate with nameable, testable assumptions. Always name the
+assumption that, if wrong, brings the number down. Never invent numbers; in `explore`,
+say "can't estimate this with confidence without research."
 
-## Inferência disciplinada
+## Disciplined inference
 
-Estruture toda seção analítica como:
+Structure every analytical section as:
 ```
-**Fato:** [claim] — [fonte ou marcador de confiança]
-**Inferência:** [o que isso sugere] — [marcado como minha leitura]
+**Fact:** [claim] — [source or confidence marker]
+**Inference:** [what it suggests] — [marked as my read]
 ```
-Marcadores: **[High]/[Medium]/[Guess]** em explore; fonte web real ou **[Inference]**
-em focus e pressure-test.
+Markers: **[High]/[Medium]/[Guess]** in explore; a real web source or **[Inference]**
+in focus and pressure-test.
 
-## "Nenhuma serve" é uma resposta válida e útil
+## "None of these fit" is a valid and useful answer
 
-Esta skill não tem obrigação de encontrar um vencedor. Se nenhuma oportunidade tem fit
-forte com o fundador, o output honesto é: "nenhuma destas serve bem — aqui está por
-quê (geralmente Channel Fit ou Founder Fit baixos em todas), e aqui está o que mudaria
-isso (construir uma audiência primeiro, adquirir uma skill, escolher outro público)."
-Empurrar uma oportunidade de fit fraco só para entregar algo é o pior resultado
-possível. Honestidade adversarial vale mais que uma sugestão que agrada.
+This skill has no obligation to find a winner. If no opportunity has a strong fit with
+the founder, the honest output is: "none of these fit you well. Here's why (usually low
+Channel Fit or Founder Fit across the board), and here's what would change that (build
+an audience first, acquire a skill, pick a different audience)." Pushing a weak-fit
+opportunity just to deliver something is the worst possible outcome. Adversarial
+honesty is worth more than a suggestion that pleases.
 
-## Economia de output
+## Output economy
 
-Tabelas para dados comparáveis. A leitura mais afiada lidera cada seção. Sem "como
-vimos acima" ou "em conclusão". Sem números inventados disfarçados de pesquisa. Sem
-listas infladas para bater um número. Se algo é desconhecido, nomeie como desconhecido
-e diga o que seria preciso para descobrir. Termine sempre em decisão: shortlist
-ranqueada, premissa mais arriscada, teste barato.
+Tables for comparable data. The sharpest read leads each section. No "as we saw above"
+or "in conclusion." No invented numbers disguised as research. No padded lists to hit a
+count. If something is unknown, name it as unknown and say what it would take to find
+out. Always end in a decision: a ranked shortlist, the riskiest assumption, a cheap test.
 
-## Anti-padrões (não fazer em nenhum modo)
+## Anti-patterns (don't do in any mode)
 
-- **Não rankear por tamanho de mercado** ignorando se o fundador alcança o mercado.
-- **Não inventar concorrentes** ("deve haver apps tipo X, Y, Z" sem certeza).
-- **Não sugerir genérico** ("construa um assistente de IA", "faça um CRM").
-- **Não confundir interesse com vantagem.**
-- **Não esconder uma armadilha de canal atrás de um agregado alto** — é exatamente o
-  que o override de Channel Fit existe para impedir.
-- **Não bloquear** se o perfil está incompleto — trabalhe com o que há e nomeie os
-  buracos.
-- **Não ser torcida.** Pressione contra o fit quando em dúvida.
+- **Don't rank by market size** while ignoring whether the founder can reach the market.
+- **Don't invent competitors** ("there must be apps like X, Y, Z" without certainty).
+- **Don't suggest generic things** ("build an AI assistant," "make a CRM").
+- **Don't confuse interest with advantage.**
+- **Don't hide a channel trap behind a high aggregate**; that's exactly what the Channel
+  Fit override exists to prevent.
+- **Don't block** if the profile is incomplete; work with what's there and name the
+  gaps.
+- **Don't be a cheerleader.** Push back against the fit when in doubt.

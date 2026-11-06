@@ -1,120 +1,120 @@
 # Mode: Deliverable
 
-Modo `research` + formatação para audiência externa. Output destinado a cliente, stakeholder, investidor ou outro PM — não a si mesmo.
+`research` mode + formatting for an external audience. The output is meant for a client, stakeholder, investor or another PM, not for yourself.
 
-## Quando usar
+## When to use
 
-- PM levando análise para um cliente.
-- Decisão de portfólio em comitê.
-- Avaliação de proposta de stakeholder externo.
-- Documento que será lido por alguém que não acompanhou a conversa.
+- A PM taking an analysis to a client.
+- A portfolio decision in a committee.
+- Evaluating a proposal from an external stakeholder.
+- A document that will be read by someone who didn't follow the conversation.
 
-## Restrições
+## Constraints
 
-1. **Tudo do modo research vale** (cada claim com fonte, Mom Test, sem teatro de número).
-2. **Linguagem ajustada à audiência**: menos primeira pessoa, mais voz neutra/profissional.
-3. **Executive Summary obrigatório** no topo (não no fim).
-4. **Apêndices** com dados brutos da pesquisa (links, citações, tabelas completas) ao final.
-5. **Tom honesto, mas profissional**: a postura adversarial do modo quick vira "análise crítica fundamentada".
+1. **Everything from research mode applies** (every claim sourced, Mom Test, no number theater).
+2. **Language adjusted to the audience**: less first person, more neutral/professional voice.
+3. **Executive Summary required** at the top (not at the end).
+4. **Appendices** with the raw research data (links, quotes, full tables) at the end.
+5. **Honest but professional tone**: quick mode's adversarial stance becomes "grounded critical analysis."
 
-## Protocolo
+## Protocol
 
-Executar todo o protocolo do modo `research` (`references/mode-research.md`), e adicionar:
+Run the full `research` mode protocol (`references/mode-research.md`), and add:
 
-### Passo 0: Confirmar audiência e contexto
+### Step 0: Confirm audience and context
 
-Antes de produzir o output, perguntar (ou inferir se óbvio):
+Before producing the output, ask (or infer if obvious):
 
-1. Para quem vai este documento? (cliente, investidor, comitê interno)
-2. Qual a decisão que precisa ser tomada com base nele?
-3. Há restrições de extensão ou formato?
-4. O documento será compartilhado em qual canal? (email, deck, doc compartilhado)
+1. Who is this document for? (client, investor, internal committee)
+2. What decision needs to be made based on it?
+3. Are there length or format constraints?
+4. Which channel will the document be shared through? (email, deck, shared doc)
 
-### Passo final: Reformatar para entregável
+### Final step: Reformat as a deliverable
 
-Estrutura de output:
+Output structure:
 
 ```
-# Análise de Viabilidade: [Nome do produto/ideia]
+# Feasibility Analysis: [Product/idea name]
 
-**Preparado por:** [PM]
-**Data:** [data]
-**Decisão suportada:** [qual decisão este documento sustenta]
+**Prepared by:** [PM]
+**Date:** [date]
+**Decision supported:** [which decision this document supports]
 
 ## Executive Summary
 
-[3-5 parágrafos]
-- Recomendação clara: BUILD / VALIDATE FIRST / KILL
-- Score agregado
-- Top 3 razões
-- Próximos passos sugeridos
+[3-5 paragraphs]
+- Clear recommendation: BUILD / VALIDATE FIRST / KILL
+- Aggregate score
+- Top 3 reasons
+- Suggested next steps
 
-## 1. Contexto e Ideia
+## 1. Context and Idea
 
-[Reescrita em 1 frase + descrição estruturada]
+[1-sentence rewrite + structured description]
 
-## 2. Mapeamento Competitivo
+## 2. Competitive Mapping
 
-[Tabela formatada profissionalmente]
+[Professionally formatted table]
 
-## 3. Análise de Demanda
+## 3. Demand Analysis
 
-[Fatos com fontes em notas de rodapé ou links inline]
+[Facts with sources in footnotes or inline links]
 
-## 4. Viabilidade Técnica
+## 4. Technical Feasibility
 
-[Análise]
+[Analysis]
 
-## 5. Monetização e Modelo de Negócio
+## 5. Monetization and Business Model
 
-[Análise + benchmark]
+[Analysis + benchmark]
 
 ## 6. Risk Register
 
-[Tabela formal com Impact × Likelihood × Mitigação × Owner sugerido]
+[Formal table with Impact × Likelihood × Mitigation × Suggested owner]
 
-## 7. Score e Justificativa
+## 7. Score and Rationale
 
-[Componentes + total]
+[Components + total]
 
-## 8. Recomendação
+## 8. Recommendation
 
-[Verdict com 3 razões fundamentadas]
+[Verdict with 3 grounded reasons]
 
-## 9. Plano de Validação / Próximos Passos
+## 9. Validation Plan / Next Steps
 
-[Ações concretas com responsável e prazo sugeridos]
+[Concrete actions with suggested owner and deadline]
 
-## 10. Caminhos Alternativos (se aplicável)
+## 10. Alternative Paths (if applicable)
 
-[Pivot Paths: 2-3 reformulações da ideia se Verdict for KILL ou score baixo. Cada uma com: melhoria esperada, fundamento de mercado, trade-off. Pular se Verdict = BUILD com score forte.]
+[Pivot Paths: 2-3 reframings of the idea if the Verdict is KILL or the score is low. Each with: expected improvement, market grounding, trade-off. Skip if Verdict = BUILD with a strong score.]
 
-## 11. Perguntas Críticas Remanescentes
+## 11. Remaining Critical Questions
 
-[Lista numerada]
+[Numbered list]
 
-## Apêndices
+## Appendices
 
-### A. Fontes consultadas
-[Lista com links]
+### A. Sources consulted
+[List with links]
 
-### B. Reviews e citações analisadas
-[Citações relevantes com fonte]
+### B. Reviews and quotes analyzed
+[Relevant quotes with source]
 
-### C. Pricing benchmark detalhado
-[Tabela completa]
+### C. Detailed pricing benchmark
+[Full table]
 ```
 
-## Notas de formatação
+## Formatting notes
 
-- **Sem primeira pessoa** ("eu acho", "minha leitura") — usar "a análise sugere", "a evidência indica".
-- **Sem gírias ou postura adversarial explícita** — manter rigor sem soar combativo.
-- **Honestidade preservada**: se o verdict é KILL, o documento diz KILL. Apenas a embalagem muda, não a substância.
-- Apêndices podem ser longos; o corpo principal deve caber em 2-4 páginas.
+- **No first person** ("I think," "my read"); use "the analysis suggests," "the evidence indicates."
+- **No slang or explicit adversarial stance**; keep the rigor without sounding combative.
+- **Honesty preserved**: if the verdict is KILL, the document says KILL. Only the packaging changes, not the substance.
+- Appendices can be long; the main body should fit in 2-4 pages.
 
-## Anti-padrões (não fazer)
+## Anti-patterns (don't)
 
-- Não suavizar o verdict para agradar a audiência. Verdict é verdict.
-- Não inflar com gráficos decorativos ou seções vazias para parecer robusto.
-- Não esconder limitações da análise. Se a evidência é fraca em algum ponto, dizer.
-- Não usar buzzwords sem ancoragem ("disrupção", "inovação", "transformação" sem definição operacional).
+- Don't soften the verdict to please the audience. A verdict is a verdict.
+- Don't pad with decorative charts or empty sections to look robust.
+- Don't hide the analysis's limitations. If the evidence is weak somewhere, say so.
+- Don't use unanchored buzzwords ("disruption," "innovation," "transformation" with no operational definition).

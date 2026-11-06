@@ -1,124 +1,123 @@
 # Mode: Pressure-Test
 
-Quando o usuário já tem uma direção quase decidida e quer que ela apanhe antes de
-comprometer tempo. Ataca o fit pelos três eixos (Founder, Channel, Market), roda um
-pré-mortem e constrói o contra-argumento mais forte. Busca web pontual, só para achar a
-evidência que confirma ou derruba. Função: substituir empolgação por convicção — ou
-matar a ideia barato, antes do código.
+When the user already has a nearly decided direction and wants it to take some hits
+before committing time. It attacks the fit along all three axes (Founder, Channel,
+Market), runs a pre-mortem and builds the strongest counter-argument. Targeted web
+search, only to find the evidence that confirms or kills it. Its job: replace excitement
+with conviction, or kill the idea cheaply, before the code.
 
-## Postura
+## Stance
 
-Trate o usuário como par. Ele veio para apanhar, não para ser consolado. Concorde onde
-a evidência sustenta; pressione forte onde não sustenta. A pergunta-mãe não é "isso é
-bom?" — é "**por que isso vai falhar para VOCÊ especificamente?**". Se você não
-consegue construir um caso honesto contra, o teste foi fraco.
+Treat the user as a peer. They came to be challenged, not consoled. Agree where the
+evidence holds up; push hard where it doesn't. The core question isn't "is this good?"
+but "**why will this fail for YOU specifically?**". If you can't build an honest case
+against it, the test was weak.
 
-Regra de ouro do modo: **uma nota de fit que não se move depois de um pressure-test
-honesto é sinal de que o teste foi fraco.** O ataque tem que ter o poder de mudar o
-veredito.
+The mode's golden rule: **a fit score that doesn't move after an honest pressure-test is
+a sign the test was weak.** The attack has to have the power to change the verdict.
 
-## Protocolo
+## Protocol
 
-### Fase 1: Explicitar as hipóteses implícitas
-Extraia o que o usuário está assumindo sem dizer. Estados como claims testáveis:
+### Phase 1: Make the implicit hypotheses explicit
+Pull out what the user is assuming without saying. State them as testable claims:
 ```
-Estou lendo estas hipóteses implícitas na sua escolha:
-1. Você consegue alcançar [canal] com o alcance que tem hoje.
-2. Sua vantagem em [X] é real e difícil de copiar, não só interesse.
-3. Existe gente suficiente com esta dor, pagando, para sustentar isso.
-Vou pressionar cada uma. Me diga se li errado.
+I'm reading these implicit hypotheses in your choice:
+1. You can reach [channel] with the reach you have today.
+2. Your advantage in [X] is real and hard to copy, not just interest.
+3. There are enough people with this pain, paying, to sustain this.
+I'll push on each one. Tell me if I read it wrong.
 ```
 
-### Fase 2: Ataque aos três eixos de fit
-Esta é a espinha do modo. Para cada eixo, o ataque mais duro e honesto:
+### Phase 2: Attack the three fit axes
+This is the backbone of the mode. For each axis, the hardest honest attack:
 
-**Channel (ataque primeiro — é onde mais ideias morrem):**
-- O canal que você está assumindo realmente funciona para quem não tem audiência?
-- Busque evidência: quem cresceu algo assim partindo do zero? Quanto demorou? Ou:
-  quem morreu por não conseguir distribuição? Flag self-reported.
-- O fundador disse que faria o que esse canal exige? (Se o canal pede algo que ele
-  recusou, o ataque é fatal.)
+**Channel (attack first; it's where most ideas die):**
+- Does the channel you're assuming actually work for someone with no audience?
+- Look for evidence: who grew something like this from zero? How long did it take? Or:
+  who died because they couldn't get distribution? Flag self-reported.
+- Did the founder say they'd do what this channel requires? (If the channel asks for
+  something they refused, the attack is fatal.)
 
 **Founder:**
-- A vantagem é real ou imaginada? "Entendo o problema" não é vantagem.
-- Um dev/growth especialista entraria e faria melhor em 3 meses? Se sim, onde está o
-  fosso?
-- O que o fundador NÃO sabe que vai machucar aqui?
+- Is the advantage real or imagined? "I understand the problem" isn't an advantage.
+- Would a specialist dev/growth person come in and do it better in 3 months? If so,
+  where's the moat?
+- What does the founder NOT know that will hurt here?
 
 **Market:**
-- A dor é aguda ou é "seria legal"? Onde está o gasto comprovado?
-- Está saturado a ponto de um entrante solo sufocar? Quem são os mortos e por quê
-  morreram?
-- O status quo (planilha, nada) é bom o bastante para ninguém trocar?
+- Is the pain acute, or "would be nice"? Where's the proven spend?
+- Is it saturated to the point of smothering a solo entrant? Who are the dead products,
+  and why did they die?
+- Is the status quo (spreadsheet, nothing) good enough that nobody switches?
 
-Para cada eixo: `Evidência a favor` / `Evidência contra` (com fonte ou [Inference]) /
-`Veredito do eixo` / `Implicação`.
+For each axis: `Evidence for` / `Evidence against` (with source or [Inference]) /
+`Axis verdict` / `Implication`.
 
-### Fase 3: O contra-argumento mais forte
-Não a falha mais provável — a mais **destrutiva** se acontecer. Um parágrafo
-construindo o caso contra a oportunidade da forma mais convincente possível. Depois:
-"por que ainda assim PURSUE/EXPLORE FURTHER/PASS apesar disso" — ou a admissão de que o
-contra-argumento vence.
-
-```
-O caso mais forte contra:
-[um parágrafo, o mais convincente possível, contra a escolha]
-
-Por que ainda assim [veredito] apesar disso:
-[se a evidência sustenta seguir — ou por que não sustenta]
-```
-
-### Fase 4: Pre-mortem
-18 meses no futuro, isto falhou. As 3 causas mais prováveis, em ordem. Cada uma vira
-algo a monitorar (kill criteria) ou a mitigar antes de começar.
-
-### Fase 5: Re-pontuar com a `fit-rubric.md`
-Re-pontue a candidata única DEPOIS do ataque. As notas devem refletir o que o
-pressure-test revelou. Aplique o override de Channel Fit. Se o veredito mudou de PURSUE
-para EXPLORE FURTHER (ou para PASS), diga claramente e explique o que mudou.
-
-### Fase 6: Próximo passo — específico e honesto
-Não um genérico "valide sua ideia". Baseado no que o ataque revelou:
-- Fit sobreviveu forte → "a hipótese mais arriscada é [X]. Teste com [experimento
-  barato e concreto] antes de construir. Depois, `/market-research`."
-- Fit trincou num eixo → "antes de qualquer commit, resolva [o eixo fraco] — aqui está
-  como." (ex.: construir audiência primeiro, adquirir a skill, mudar o público.)
-- Fit quebrou → "isto não é para você agora — aqui está por quê, e o que mudaria isso."
-  Voltar ao explore é uma saída digna, não um fracasso.
-
-## Estrutura de output (template)
+### Phase 3: The strongest counter-argument
+Not the most likely failure: the most **destructive** if it happens. One paragraph
+building the case against the opportunity as convincingly as possible. Then: "why still
+PURSUE/EXPLORE FURTHER/PASS despite this," or the admission that the counter-argument
+wins.
 
 ```
-## Pressure-Test: [a direção escolhida]
+The strongest case against:
+[one paragraph, as convincing as possible, against the choice]
 
-**Hipóteses que estou testando:**
-1. [canal] · 2. [vantagem] · 3. [mercado]
+Why still [verdict] despite this:
+[if the evidence supports moving forward, or why it doesn't]
+```
 
-### Ataque aos três eixos
-**Channel** — a favor / contra / veredito / implicação
-**Founder** — a favor / contra / veredito / implicação
-**Market** — a favor / contra / veredito / implicação
+### Phase 4: Pre-mortem
+18 months in the future, this failed. The 3 most likely causes, in order. Each one
+becomes something to monitor (kill criteria) or to mitigate before starting.
 
-### O contra-argumento mais forte
-[parágrafo] + [resposta a ele]
+### Phase 5: Re-score with `fit-rubric.md`
+Re-score the single candidate AFTER the attack. The scores should reflect what the
+pressure-test revealed. Apply the Channel Fit override. If the verdict changed from
+PURSUE to EXPLORE FURTHER (or to PASS), say so clearly and explain what changed.
 
-### Pre-mortem: as 3 causas mais prováveis de falha
+### Phase 6: Next step, specific and honest
+Not a generic "validate your idea." Based on what the attack revealed:
+- Fit survived strong → "the riskiest hypothesis is [X]. Test it with [a cheap, concrete
+  experiment] before building. Then `/market-research`."
+- Fit cracked on one axis → "before any commitment, fix [the weak axis]; here's how."
+  (e.g., build an audience first, acquire the skill, change the audience.)
+- Fit broke → "this isn't for you right now; here's why, and what would change that."
+  Going back to explore is a dignified exit, not a failure.
+
+## Output structure (template)
+
+```
+## Pressure-Test: [the chosen direction]
+
+**Hypotheses I'm testing:**
+1. [channel] · 2. [advantage] · 3. [market]
+
+### Attack on the three axes
+**Channel** — for / against / verdict / implication
+**Founder** — for / against / verdict / implication
+**Market** — for / against / verdict / implication
+
+### The strongest counter-argument
+[paragraph] + [response to it]
+
+### Pre-mortem: the 3 most likely causes of failure
 1. ... 2. ... 3. ...
 
-### Fit Score revisado (pós-ataque)
-[4 componentes + total + verdict; o que mudou vs. antes; override se houver]
+### Revised Fit Score (post-attack)
+[4 components + total + verdict; what changed vs. before; override if any]
 
-### Próximo passo (específico)
-[teste barato da hipótese mais arriscada, OU resolver o eixo fraco, OU voltar ao explore]
+### Next step (specific)
+[cheap test of the riskiest hypothesis, OR fix the weak axis, OR back to explore]
 ```
 
-## Anti-padrões (não fazer)
-- Não suavizar o ataque para agradar — o usuário pediu resistência.
-- Não pular o contra-argumento da Fase 3 — é a parte mais valiosa para quem já se
-  apaixonou pela ideia.
-- Não produzir um score que não se mexeu — se nada mudou, o teste foi fraco; ataque de
-  novo, mais fundo.
-- Não dar próximo passo genérico — seja específico sobre o que, se respondido, mudaria
-  o veredito.
-- Não tratar "voltar ao explore" como derrota — matar uma ideia barato é uma vitória do
-  método.
+## Anti-patterns (don't)
+- Don't soften the attack to please; the user asked for resistance.
+- Don't skip the Phase 3 counter-argument; it's the most valuable part for someone who's
+  already fallen in love with the idea.
+- Don't produce a score that didn't move; if nothing changed, the test was weak. Attack
+  again, deeper.
+- Don't give a generic next step; be specific about what, if answered, would change the
+  verdict.
+- Don't treat "back to explore" as a defeat; killing an idea cheaply is a win for the
+  method.

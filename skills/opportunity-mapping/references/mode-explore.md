@@ -1,116 +1,115 @@
 # Mode: Explore
 
-O ponto de partida quando não há ideia nenhuma. Parte do perfil do fundador, gera um
-espaço amplo de oportunidades, filtra pelos constraints e rankeia por fit. Sem busca
-web pesada — raciocínio + conhecimento prévio, com confiança calibrada. Função: mostrar
-o campo para o fundador decidir onde vale aprofundar.
+The starting point when there's no idea at all. It starts from the founder's profile,
+generates a broad space of opportunities, filters by constraints and ranks by fit. No
+heavy web search: reasoning + prior knowledge, with calibrated confidence. Its job: show
+the field so the founder can decide where it's worth going deeper.
 
-## Restrições
+## Constraints
 
-1. **Sem busca web pesada.** Se a vontade de pesquisar surgir, sinalize: "isso eu
-   precisaria checar no modo focus". O explore é rápido e baseado em raciocínio.
-2. **Sem números específicos** de mercado, share ou pricing, salvo fatos amplamente
-   conhecidos e estáveis.
-3. **Marcar confiança em cada claim relevante:** `[High]`, `[Medium]`, `[Guess]`.
-4. Output enxuto: cabe em ~1–2 telas. Profundidade vem no focus.
+1. **No heavy web search.** If the urge to research comes up, flag it: "I'd need to
+   check that in focus mode." Explore is fast and reasoning-based.
+2. **No specific numbers** for market, share or pricing, except widely known, stable
+   facts.
+3. **Mark confidence on every relevant claim:** `[High]`, `[Medium]`, `[Guess]`.
+4. Lean output: fits in ~1–2 screens. Depth comes in focus.
 
-## Antes de começar: o perfil é tudo
+## Before you start: the profile is everything
 
-O explore é só tão bom quanto o perfil do fundador. Se as quatro dimensões (vantagem
-injusta, canais alcançáveis, o que quer aprender, constraints) não estão claras,
-estabeleça-as primeiro — uma mensagem compacta, agrupada. Não gere oportunidades sobre
-um perfil vago; nomeie o que falta e trabalhe com o que há.
+Explore is only as good as the founder's profile. If the four dimensions (unfair
+advantage, reachable channels, what they want to learn, constraints) aren't clear,
+establish them first, in one compact, grouped message. Don't generate opportunities on
+top of a vague profile; name what's missing and work with what's there.
 
-**Reafirme o perfil em 1–2 frases no topo do output**, para o fundador confirmar ou
-corrigir antes de você investir na geração:
+**Restate the profile in 1–2 sentences at the top of the output**, so the founder can
+confirm or correct it before you invest in generating:
 
-> "Lendo você como: [vantagem injusta], que alcança [canais], quer aprender [X], e não
-> topa [constraints]. Vou mapear sobre isso — me corrija se errei."
+> "Reading you as: [unfair advantage], who can reach [channels], wants to learn [X], and
+> won't do [constraints]. I'll map on top of that; correct me if I got it wrong."
 
-## Protocolo
+## Protocol
 
-### Passo 1: Ler o perfil e extrair os vetores de fit
-Antes de gerar, explicite as quatro dimensões como vetores que vão guiar a geração e o
-corte:
-- **Vantagem** → que campos colocam o fundador em vantagem?
-- **Canal** → que tipos de produto são descobríveis pelos canais que ele alcança?
-- **Aprendizado** → que espaços ensinam o que ele quer aprender?
-- **Constraints** → que famílias inteiras de produto estão fora? (ex.: "sem
-  marketplace" elimina apps de plugin; "sem vendas" elimina B2B enterprise de ticket
-  alto.)
+### Step 1: Read the profile and extract the fit vectors
+Before generating, spell out the four dimensions as vectors that will guide generation
+and cutting:
+- **Advantage** → which fields put the founder at an advantage?
+- **Channel** → what kinds of product are discoverable through the channels they reach?
+- **Learning** → which spaces teach what they want to learn?
+- **Constraints** → which whole product families are out? (e.g., "no marketplace"
+  rules out plugin apps; "no sales" rules out high-ticket enterprise B2B.)
 
-Os constraints são um filtro de corte ANTES da geração, não depois — evita gerar 12
-oportunidades e descartar 8.
+Constraints are a cutting filter BEFORE generation, not after; this avoids generating 12
+opportunities and discarding 8.
 
-### Passo 2: Gerar o espaço de oportunidades (8–12)
-Gere oportunidades CONCRETAS na interseção dos vetores. Cada uma precisa de:
-- Um problema específico (não "ferramenta de produtividade", mas "X que faz Y para Z")
-- Um ICP exato
-- O canal concreto pelo qual ESTE fundador a tornaria descobrível
-- Por que não está obviamente saturada (com marcador de confiança)
-- O que construí-la ensinaria ao fundador (amarra no vetor de aprendizado)
+### Step 2: Generate the opportunity space (8–12)
+Generate CONCRETE opportunities at the intersection of the vectors. Each one needs:
+- A specific problem (not "productivity tool," but "X that does Y for Z")
+- An exact ICP
+- The concrete channel through which THIS founder would make it discoverable
+- Why it isn't obviously saturated (with a confidence marker)
+- What building it would teach the founder (tied to the learning vector)
 
-Favoreça o "chato mas valioso" sobre o "brilhante mas óbvio". Evite o que todo mundo
-sugere. Se uma família de produto viola um constraint, não a liste — ou liste-a
-explicitamente como "fora por causa de [constraint]" se for instrutivo.
+Favor "boring but valuable" over "brilliant but obvious." Avoid what everyone suggests.
+If a product family violates a constraint, don't list it, or list it explicitly as "out
+because of [constraint]" if that's instructive.
 
-### Passo 3: Pontuar e rankear (tabela)
-Aplique a `fit-rubric.md` de forma rápida e comparável. Tabela com uma linha por
-oportunidade e os quatro componentes + total + verdict:
+### Step 3: Score and rank (table)
+Apply `fit-rubric.md` quickly and comparably. A table with one row per opportunity and
+the four components + total + verdict:
 
-| Oportunidade | Founder | Channel | Market | Build&Mon | Total | Verdict |
+| Opportunity | Founder | Channel | Market | Build&Mon | Total | Verdict |
 |---|---|---|---|---|---|---|
 
-Aplique o **override de Channel Fit** (≤8 trava em EXPLORE FURTHER) e marque-o na
-tabela quando disparar — é frequentemente o insight mais útil do explore.
+Apply the **Channel Fit override** (≤8 caps at EXPLORE FURTHER) and mark it in the table
+when it fires; it's often the most useful insight of the explore.
 
-### Passo 4: Aprofundar as top 3–4
-Para as melhores, 2–4 frases cada: por que o fit é forte, qual o canal concreto, e qual
-a maior incerteza. Separe Fato de Inferência.
+### Step 4: Go deeper on the top 3–4
+For the best ones, 2–4 sentences each: why the fit is strong, what the concrete channel
+is, and what the biggest uncertainty is. Separate Fact from Inference.
 
-### Passo 5: A leitura honesta
-Uma seção curta: o que o mapa revela. Padrões (ex.: "todas as suas oportunidades de
-Channel Fit alto são info-produto, não SaaS — isso diz algo"). E, se for o caso, a
-verdade desconfortável: "nenhuma destas passa de EXPLORE FURTHER porque seu Channel Fit
-é fraco em tudo — o gargalo é audiência, não ideia."
+### Step 5: The honest read
+A short section: what the map reveals. Patterns (e.g., "all your high-Channel-Fit
+opportunities are info-products, not SaaS; that says something"). And, when it applies,
+the uncomfortable truth: "none of these get past EXPLORE FURTHER because your Channel
+Fit is weak across the board; the bottleneck is audience, not ideas."
 
-### Passo 6: Próximo passo
-Ofereça o funil:
-> "Quer que eu pegue as top 2–3 e afunile com pesquisa real — concorrentes, mortos,
-> canais — no modo focus? Lá eu vou te sinalizar quando valer ativar a pesquisa
-> profunda."
+### Step 6: Next step
+Offer the funnel:
+> "Want me to take the top 2–3 and narrow them down with real research (competitors,
+> dead products, channels) in focus mode? There I'll flag when it's worth turning on
+> deep research."
 
-## Estrutura de output (template)
+## Output structure (template)
 
 ```
-## Opportunity Map: [nome do fundador ou "seu perfil"]
+## Opportunity Map: [founder's name or "your profile"]
 
-*Lendo você como: [reafirmação do perfil em 1–2 frases]. Me corrija se errei.*
+*Reading you as: [profile restated in 1–2 sentences]. Correct me if I got it wrong.*
 
-### Os vetores que vão guiar
-- Vantagem: [...]
-- Canal: [...]
-- Aprendizado: [...]
-- Constraints (cortes): [...]
+### The vectors guiding this
+- Advantage: [...]
+- Channel: [...]
+- Learning: [...]
+- Constraints (cuts): [...]
 
-### O espaço de oportunidades
-[tabela de 8–12 com os 4 componentes + total + verdict]
+### The opportunity space
+[table of 8–12 with the 4 components + total + verdict]
 
-### As mais fortes (top 3–4)
-**[Oportunidade]** — [por que o fit, o canal concreto, a maior incerteza]
-**Fato:** [...] · **Inferência:** [...]
+### The strongest (top 3–4)
+**[Opportunity]** — [why the fit, the concrete channel, the biggest uncertainty]
+**Fact:** [...] · **Inference:** [...]
 
-### A leitura honesta
-[padrões + verdade desconfortável se houver]
+### The honest read
+[patterns + uncomfortable truth, if any]
 
-### Próximo passo
-[oferecer focus nas top 2–3]
+### Next step
+[offer focus on the top 2–3]
 ```
 
-## Anti-padrões (não fazer)
-- Não gerar sobre perfil vago — estabeleça o perfil primeiro.
-- Não inflar a lista pra bater 12; 8 boas valem mais que 12 fracas.
-- Não rankear por mercado ignorando canal.
-- Não inventar concorrentes nem números — isso é trabalho do focus.
-- Não terminar sem verdict por oportunidade.
-- Não esconder a verdade desconfortável quando o fit é fraco em tudo.
+## Anti-patterns (don't)
+- Don't generate on top of a vague profile; establish the profile first.
+- Don't pad the list to hit 12; 8 good ones beat 12 weak ones.
+- Don't rank by market while ignoring channel.
+- Don't invent competitors or numbers; that's focus's job.
+- Don't finish without a verdict per opportunity.
+- Don't hide the uncomfortable truth when the fit is weak across the board.

@@ -1,169 +1,169 @@
 # Mode: Research
 
-Análise com busca web ativa. Cada claim sobre mercado tem fonte. Foco: gerar veredicto fundamentado, não relatório bonito.
+Analysis with active web search. Every market claim has a source. Focus: produce a grounded verdict, not a pretty report.
 
-## Restrições
+## Constraints
 
-1. **Toda afirmação sobre o mundo externo** (competidor, pricing, demanda, reviews, churn) precisa de citação web. Sem fonte → marca como `[Inferência]`.
-2. **Mom Test obrigatório** na análise de reviews: descartar elogio genérico, priorizar comportamento e dor.
-3. **Sem teatro de número**: TAM/SAM/SOM só com fonte direta. Se não houver, dizer "não disponível com confiança".
-4. **Orçamento duro de buscas: 6-10 queries.** Cada busca com pergunta clara que ela responde. Acima de 10 só com sinalização explícita ao usuário. Princípio: mais busca não compensa, melhor sintetizar bem o que tem.
-5. **Output enxuto.** Tabelas > prosa. Sem repetir o que já está claro. Meta: 2-3 telas de leitura.
+1. **Every claim about the outside world** (competitor, pricing, demand, reviews, churn) needs a web citation. No source → mark it `[Inference]`.
+2. **Mom Test required** when analyzing reviews: discard generic praise, prioritize behavior and pain.
+3. **No number theater**: TAM/SAM/SOM only with a direct source. If there isn't one, say "not available with confidence."
+4. **Hard search budget: 6-10 queries.** Each search has a clear question it answers. Above 10 only with an explicit flag to the user. Principle: more searching doesn't make up for it; better to synthesize what you have well.
+5. **Lean output.** Tables > prose. Don't repeat what's already clear. Target: 2-3 screens of reading.
 
-## Protocolo
+## Protocol
 
-### Passo 1: Reformular a ideia em 1 frase
-(Igual ao modo quick — `references/mode-quick.md`, passo 1.)
+### Step 1: Restate the idea in 1 sentence
+(Same as quick mode — `references/mode-quick.md`, step 1.)
 
-### Passo 2: Plano de pesquisa (mostrar ao usuário antes de buscar)
+### Step 2: Research plan (show the user before searching)
 
-Listar 5-10 perguntas concretas que a pesquisa vai tentar responder. Exemplos:
+List 5-10 concrete questions the research will try to answer. Examples:
 
-1. Quem são os 3-5 competidores diretos? Quantos usuários têm?
-2. Quais são as reclamações mais frequentes em reviews?
-3. Qual o pricing benchmark em produtos similares?
-4. Há sinais de churn ou pivot em incumbentes?
-5. Qual o tamanho/dinâmica do nicho-alvo?
-6. Existem produtos mortos no espaço? Por quê morreram?
-7. Que tendências regulatórias/tech afetam isso?
+1. Who are the 3-5 direct competitors? How many users do they have?
+2. What are the most frequent complaints in reviews?
+3. What's the pricing benchmark for similar products?
+4. Are there signs of churn or pivots among incumbents?
+5. What's the size/dynamic of the target niche?
+6. Are there dead products in the space? Why did they die?
+7. What regulatory/tech trends affect this?
 
-Esse plano vira a espinha do relatório.
+This plan becomes the backbone of the report.
 
-### Passo 3: Executar buscas
+### Step 3: Run the searches
 
-Princípios de busca:
+Search principles:
 
-- **Queries curtas**, 1-6 palavras, sem operadores especiais.
-- **Buscar competidores específicos**, não conceitos vagos. "Reflect notes review" > "AI note taking apps".
-- **Buscar churn/pivot/morte de produtos** no espaço. Aprender com mortos é metade do trabalho.
-- **Buscar reviews em fontes de comportamento real**: G2, Product Hunt, Reddit, App Store reviews recentes.
-- **Buscar pricing pages** diretamente quando relevante.
+- **Short queries**, 1-6 words, no special operators.
+- **Search for specific competitors**, not vague concepts. "Reflect notes review" > "AI note taking apps".
+- **Search for churn/pivots/deaths of products** in the space. Learning from the dead is half the work.
+- **Search for reviews in sources of real behavior**: G2, Product Hunt, Reddit, recent App Store reviews.
+- **Search pricing pages** directly when relevant.
 
-### Passo 4: Mapeamento competitivo
+### Step 4: Competitive mapping
 
-Estrutura (adaptada do framework oficial Anthropic, simplificada):
+Structure (adapted from Anthropic's official framework, simplified):
 
-**Direct competitors:** mesmo problema, mesmo público, mesmo approach.
-**Indirect competitors:** mesmo problema, approach diferente.
-**Adjacent competitors:** podem entrar no espaço amanhã (Notion AI, ChatGPT custom GPTs, etc).
-**Status quo / non-consumption:** o que as pessoas fazem hoje (planilha, paper, nada).
+**Direct competitors:** same problem, same audience, same approach.
+**Indirect competitors:** same problem, different approach.
+**Adjacent competitors:** could enter the space tomorrow (Notion AI, ChatGPT custom GPTs, etc.).
+**Status quo / non-consumption:** what people do today (spreadsheet, paper, nothing).
 
-Para cada competidor relevante (3-7 no total):
+For each relevant competitor (3-7 in total):
 
-| Competidor | Approach | Pricing | Sinais positivos | Sinais negativos | Fonte |
+| Competitor | Approach | Pricing | Positive signals | Negative signals | Source |
 |---|---|---|---|---|---|
 
-Sinais positivos = sinais de tração real (não marketing).
-Sinais negativos = reclamações de usuário, churn, problemas estruturais.
+Positive signals = signs of real traction (not marketing).
+Negative signals = user complaints, churn, structural problems.
 
-### Passo 5: Análise de demanda real
+### Step 5: Real demand analysis
 
-Não confiar em "growing market" abstrato. Buscar:
+Don't trust an abstract "growing market." Look for:
 
-- **Reviews de produtos adjacentes** onde usuários pedem o que sua ideia oferece. Citar com fonte.
-- **Threads em Reddit/HN/Twitter** sobre a dor. Citar.
-- **Search volume signals** (se conseguir indícios).
-- **Comunidades pagas** existentes no espaço (sinal de WTP).
+- **Reviews of adjacent products** where users ask for what your idea offers. Quote with source.
+- **Reddit/HN/Twitter threads** about the pain. Quote.
+- **Search volume signals** (if you can find indications).
+- **Existing paid communities** in the space (a WTP signal).
 
-Aplicar Mom Test: separar opinião ("would love this") de comportamento ("eu pago $20/mês pelo X que não resolve Y").
+Apply the Mom Test: separate opinion ("would love this") from behavior ("I pay $20/month for X, which doesn't solve Y").
 
-### Passo 6: Análise de viabilidade técnica
+### Step 6: Technical feasibility analysis
 
-Foco em:
+Focus on:
 
-- APIs/serviços externos necessários e custo (especialmente LLM, vector DB, etc).
-- Riscos técnicos específicos (acurácia, latência, custo por usuário).
-- Comparar com como competidores resolveram problemas similares.
+- External APIs/services needed and their cost (especially LLM, vector DB, etc.).
+- Specific technical risks (accuracy, latency, cost per user).
+- Compare with how competitors solved similar problems.
 
-### Passo 7: Análise de monetização
+### Step 7: Monetization analysis
 
-- Pricing benchmark com fontes (pricing pages dos competidores).
-- Modelos viáveis (SaaS, freemium, one-time, etc).
-- Unit economics se possível estimar com âncoras.
-- Para projeto pessoal: marcar N/A se aplicável.
+- Pricing benchmark with sources (competitors' pricing pages).
+- Viable models (SaaS, freemium, one-time, etc.).
+- Unit economics if they can be estimated with anchors.
+- For a personal project: mark N/A if applicable.
 
-### Passo 8: Pre-mortem (5 min)
+### Step 8: Pre-mortem (5 min)
 
-Imagine que daqui a 12 meses o projeto fracassou. Liste as 3 causas mais prováveis. Esse exercício alimenta o risk register.
+Imagine the project has failed 12 months from now. List the 3 most likely causes. This exercise feeds the risk register.
 
-### Passo 9: Score + Verdict + Risk register + Perguntas
+### Step 9: Score + Verdict + Risk register + Questions
 
-Score com `scoring-rubric.md`.
-Risk register obrigatório, 5-7 linhas no modo research.
-Verdict com 3 razões fundamentadas (cada uma referenciando evidência da pesquisa).
+Score with `scoring-rubric.md`.
+Risk register required, 5-7 rows in research mode.
+Verdict with 3 grounded reasons (each referencing evidence from the research).
 
-Top 3 perguntas críticas remanescentes:
+Top 3 remaining critical questions:
 
-- O que **ainda** não dá pra saber sem entrevistar usuários reais?
-- Quais hipóteses precisam de teste antes de qualquer commit grande?
-- Que kill criteria adicionais devem ser monitorados?
+- What **still** can't be known without interviewing real users?
+- Which hypotheses need testing before any big commitment?
+- Which additional kill criteria should be monitored?
 
-## Estrutura de output (template)
+## Output structure (template)
 
 ```
-## Validação Research: [Nome da ideia]
+## Research Validation: [Idea name]
 
-**Em uma frase:** [reescrita estruturada]
+**In one sentence:** [structured rewrite]
 
-### Plano de pesquisa
-[5-10 perguntas guiando a investigação]
+### Research plan
+[5-10 questions guiding the investigation]
 
-### Mapeamento competitivo
-[tabela]
+### Competitive mapping
+[table]
 
-### Demanda real
-**Fatos:**
-- [claim com fonte]
-- [claim com fonte]
+### Real demand
+**Facts:**
+- [claim with source]
+- [claim with source]
 
-**Inferências:**
-- [leitura minha]
+**Inferences:**
+- [my read]
 
-### Viabilidade técnica
-[análise]
+### Technical feasibility
+[analysis]
 
-### Monetização
-[análise + pricing benchmark com fontes]
+### Monetization
+[analysis + pricing benchmark with sources]
 
-### Pre-mortem: as 3 causas mais prováveis de fracasso
+### Pre-mortem: the 3 most likely causes of failure
 1. ...
 2. ...
 3. ...
 
 ### Score
-[componentes + total + justificativa por componente]
+[components + total + rationale per component]
 
 ### Risk Register
-[tabela 5-7 linhas]
+[5-7 row table]
 
 ### Verdict: [BUILD | VALIDATE FIRST | KILL]
-1. [razão com referência à evidência]
+1. [reason referencing the evidence]
 2. ...
 3. ...
 
-### Top 3 perguntas críticas remanescentes
+### Top 3 remaining critical questions
 1. ...
 2. ...
 3. ...
 
-### Pivot Paths (se Verdict = KILL ou score < 55)
-**Pivot 1: [nome curto]**
-- Melhora: [qual componente do score]
-- Por quê: [razão ancorada na pesquisa]
-- Trade-off: [o que se perde]
+### Pivot Paths (if Verdict = KILL or score < 55)
+**Pivot 1: [short name]**
+- Improves: [which score component]
+- Why: [reason anchored in the research]
+- Trade-off: [what's lost]
 
-**Pivot 2: [nome curto]**
+**Pivot 2: [short name]**
 - ...
 
-(Listar 2-3. Pular esta seção se Verdict = BUILD ou VALIDATE FIRST com score ≥ 55.)
+(List 2-3. Skip this section if Verdict = BUILD, or VALIDATE FIRST with score ≥ 55.)
 
-### Plano de validação sugerido (se Verdict = VALIDATE FIRST ou BUILD)
-[3-5 ações concretas: entrevistas, landing page test, pretotype, etc]
+### Suggested validation plan (if Verdict = VALIDATE FIRST or BUILD)
+[3-5 concrete actions: interviews, landing page test, pretotype, etc.]
 ```
 
-## Anti-padrões (não fazer)
+## Anti-patterns (don't)
 
-- Não escrever sem fonte e marcar como fato. Inferência marcada está OK; "fato" sem fonte é proibido.
-- Não fazer 30 buscas. Mais de 15 sem ganho marginal é desperdício; melhor pedir orientação ao usuário.
-- Não copiar marketing dos competidores como se fosse análise. Buscar o que usuário fala, não o que vendedor fala.
-- Não terminar em "interessante, mas precisa de mais pesquisa" sem dar verdict. Verdict é obrigatório.
+- Don't write something unsourced and label it a fact. A marked inference is fine; an unsourced "fact" is forbidden.
+- Don't run 30 searches. More than 15 with no marginal gain is waste; better to ask the user for direction.
+- Don't copy competitors' marketing as if it were analysis. Look for what users say, not what sellers say.
+- Don't end with "interesting, but needs more research" without a verdict. A verdict is mandatory.

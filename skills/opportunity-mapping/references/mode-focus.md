@@ -1,125 +1,125 @@
 # Mode: Focus
 
-Quando já há um campo ou 2–3 candidatas — de um `explore` anterior ou trazidas pelo
-usuário — e é hora de afunilar com evidência real. Busca web ativa. Mapeia
-concorrência, produtos mortos e realidade de canal de cada candidata, e estreita
-iterativamente conforme o usuário reage. Função: ir de "algumas candidatas" para "a
-escolhida", com fundamento.
+When there's already a field or 2–3 candidates (from a previous `explore` or brought by
+the user) and it's time to narrow down with real evidence. Active web search. It maps
+the competition, dead products and channel reality for each candidate, and narrows
+iteratively as the user reacts. Its job: go from "a few candidates" to "the chosen one,"
+with grounding.
 
-## Restrições
+## Constraints
 
-1. **Toda afirmação sobre o mundo externo** (concorrente, pricing, demanda, canal,
-   tração) precisa de fonte web. Sem fonte → marcar `[Inference]`.
-2. **Mom Test obrigatório** ao analisar reviews/sinais: descartar elogio genérico,
-   priorizar comportamento, dor e workarounds (planilhas = sinal forte).
-3. **Sem teatro de número.** Tamanho de mercado só com fonte. Flag em receita
-   autorrelatada ("self-reported").
-4. **Output enxuto.** Tabelas > prosa. Meta: 2–3 telas.
+1. **Every claim about the outside world** (competitor, pricing, demand, channel,
+   traction) needs a web source. No source → mark it `[Inference]`.
+2. **Mom Test required** when analyzing reviews/signals: discard generic praise,
+   prioritize behavior, pain and workarounds (spreadsheets = strong signal).
+3. **No number theater.** Market size only with a source. Flag self-reported revenue.
+4. **Lean output.** Tables > prose. Target: 2–3 screens.
 
-## O convite de pesquisa profunda (característica desta skill)
+## The deep-research invitation (a feature of this skill)
 
-O focus é onde a profundidade da pesquisa decide a qualidade. **Logo no início do
-modo, avalie se a tarefa pede varredura ampla** (mapear concorrentes, mortos e canais
-de várias candidatas costuma pedir). Se pedir, **pare e sinalize ao usuário** antes de
-sair buscando:
+Focus is where research depth decides quality. **Right at the start of the mode, assess
+whether the task calls for a broad sweep** (mapping competitors, dead products and
+channels for several candidates usually does). If it does, **stop and flag it to the
+user** before searching:
 
-> "Esta etapa fica muito mais forte com pesquisa profunda. Se você tiver o modo de
-> pesquisa estendida disponível na interface, ative agora — vou fazer uma varredura
-> ampla de concorrentes, produtos mortos e canais para as candidatas. Se preferir não
-> ativar, sigo com busca web normal, que cobre o essencial com menos profundidade e
-> menos fôlego de fontes. Qual você prefere?"
+> "This step gets much stronger with deep research. If you have the extended research
+> mode available in your interface, turn it on now and I'll do a broad sweep of
+> competitors, dead products and channels for the candidates. If you'd rather not, I'll
+> go ahead with normal web search, which covers the essentials with less depth and fewer
+> sources. Which do you prefer?"
 
-Notas sobre isso:
-- O Claude **não consegue ativar** o modo de pesquisa estendida sozinho — é um controle
-  do usuário. O papel da skill é sinalizar o melhor momento, não tentar acionar.
-- A busca web normal (que o Claude dispara sozinho) cobre bem 6–15 buscas focadas. A
-  pesquisa estendida faz dezenas e sintetiza — melhor para varreduras amplas.
-- Se o usuário seguir sem o modo estendido, **não bloqueie**: faça a busca normal e
-  nomeie o que ficou menos coberto.
-- Respeite o controle do usuário e o tom das outras skills: oferecer, nomear o
-  trade-off, não empurrar.
+Notes on this:
+- Claude **can't turn on** extended research mode by itself; it's a user control. The
+  skill's role is to flag the best moment, not to try to trigger it.
+- Normal web search (which Claude runs on its own) handles 6–15 focused searches well.
+  Extended research runs dozens and synthesizes; it's better for broad sweeps.
+- If the user continues without extended mode, **don't block**: do the normal search and
+  name what got less coverage.
+- Respect the user's control and the tone of the other skills: offer, name the
+  trade-off, don't push.
 
-## Protocolo
+## Protocol
 
-### Passo 1: Confirmar as candidatas
-Liste as 2–3 candidatas que entram no focus (do explore ou do usuário). Reafirme o
-perfil do fundador em uma linha — o fit é sempre contra ele.
+### Step 1: Confirm the candidates
+List the 2–3 candidates going into focus (from explore or from the user). Restate the
+founder's profile in one line; the fit is always against it.
 
-### Passo 2: Plano de pesquisa (mostrar antes de buscar)
-5–10 perguntas concretas que a pesquisa vai responder, por candidata. Exemplos:
-1. Quem são os 3–5 concorrentes diretos? Tração? Pricing?
-2. Quais as reclamações recorrentes em reviews/threads?
-3. Que produtos morreram neste espaço e por quê?
-4. Qual o canal real de aquisição que funciona aqui para quem não tem audiência?
-5. Há sinal de planilha/workaround (demanda não atendida)?
-6. Pricing benchmark — o público paga?
+### Step 2: Research plan (show before searching)
+5–10 concrete questions the research will answer, per candidate. Examples:
+1. Who are the 3–5 direct competitors? Traction? Pricing?
+2. What are the recurring complaints in reviews/threads?
+3. Which products died in this space, and why?
+4. What's the real acquisition channel that works here for someone with no audience?
+5. Is there a spreadsheet/workaround signal (unmet demand)?
+6. Pricing benchmark: does the audience pay?
 
-Este plano vira a espinha do output. (É aqui, ou logo antes, que entra o convite de
-pesquisa profunda do bloco acima.)
+This plan becomes the backbone of the output. (This is where, or right before where, the
+deep-research invitation above comes in.)
 
-### Passo 3: Executar buscas
-Princípios: queries curtas (1–6 palavras); buscar concorrentes específicos, não
-conceitos; **buscar mortos/pivôs** (metade do aprendizado); buscar reviews
-comportamentais (G2, Product Hunt, Reddit, IH, HN); buscar pricing pages diretas.
-Aplicar Mom Test a tudo.
+### Step 3: Run the searches
+Principles: short queries (1–6 words); search for specific competitors, not concepts;
+**search for dead products/pivots** (half the learning); search for behavioral reviews
+(G2, Product Hunt, Reddit, IH, HN); search pricing pages directly. Apply the Mom Test to
+everything.
 
-### Passo 4: Mapa competitivo por candidata
-| Player | Tipo | Approach | Pricing | Tração (flag) | Gaps | Fonte |
+### Step 4: Competitive map per candidate
+| Player | Type | Approach | Pricing | Traction (flag) | Gaps | Source |
 |---|---|---|---|---|---|---|
-Tipos: Direto / Indireto / Adjacente / Status quo. Status quo (planilha, nada) é
-frequentemente o concorrente real.
+Types: Direct / Indirect / Adjacent / Status quo. The status quo (spreadsheet, nothing)
+is often the real competitor.
 
-### Passo 5: Realidade de canal por candidata
-A pergunta que o focus existe para responder com evidência: **dado o alcance do
-fundador, este produto é descobrível?** Busque casos reais de solo founders que
-cresceram algo parecido partindo de zero audiência — que canal usaram, quanto demorou,
-que MRR atingiram (flag self-reported). Isto alimenta o Channel Fit com fato, não
-suposição.
+### Step 5: Channel reality per candidate
+The question focus exists to answer with evidence: **given the founder's reach, is this
+product discoverable?** Look for real cases of solo founders who grew something similar
+starting from zero audience: which channel they used, how long it took, what MRR they
+reached (flag self-reported). This feeds Channel Fit with fact, not assumption.
 
-### Passo 6: Pre-mortem por candidata (rápido)
-Daqui a 12 meses, esta falhou. As 3 causas mais prováveis. Alimenta o risk e o score.
+### Step 6: Pre-mortem per candidate (quick)
+12 months from now, this one failed. The 3 most likely causes. Feeds the risk and the
+score.
 
-### Passo 7: Re-pontuar com a `fit-rubric.md`
-Agora com evidência. As notas DEVEM mudar em relação ao explore se a pesquisa revelou
-algo — Channel Fit e Market Pull especialmente. Aplique o override de Channel Fit.
+### Step 7: Re-score with `fit-rubric.md`
+Now with evidence. Scores MUST change from explore if the research revealed something,
+Channel Fit and Market Pull especially. Apply the Channel Fit override.
 
-### Passo 8: Estreitar e decidir
-Ranking final das candidatas. Recomende a top 1 (ou diga "empate, e o desempate é X").
-Se o usuário reagir e estreitar mais, itere — o focus é iterativo por natureza.
+### Step 8: Narrow and decide
+Final ranking of the candidates. Recommend the top 1 (or say "it's a tie, and the
+tiebreaker is X"). If the user reacts and narrows further, iterate; focus is iterative
+by nature.
 
-## Estrutura de output (template)
+## Output structure (template)
 
 ```
-## Focus: [candidatas]
+## Focus: [candidates]
 
-*Perfil do fundador (1 linha). Fit é sempre contra isso.*
+*Founder profile (1 line). Fit is always against this.*
 
-### Plano de pesquisa
-[5–10 perguntas]
-[+ convite de pesquisa profunda, se aplicável]
+### Research plan
+[5–10 questions]
+[+ deep-research invitation, if applicable]
 
-### Por candidata
-**[Candidata A]**
-- Mapa competitivo [tabela]
-- Realidade de canal [fato + fonte]
-- Pre-mortem: [3 causas]
-- **Fit Score** [4 componentes + total + verdict, com override se houver]
+### Per candidate
+**[Candidate A]**
+- Competitive map [table]
+- Channel reality [fact + source]
+- Pre-mortem: [3 causes]
+- **Fit Score** [4 components + total + verdict, with override if any]
 
-[repetir por candidata]
+[repeat per candidate]
 
-### Ranking e recomendação
-[top 1 com 3 razões fundamentadas em evidência; ou empate + desempate]
+### Ranking and recommendation
+[top 1 with 3 evidence-grounded reasons; or a tie + tiebreaker]
 
-### Próximo passo
-[/market-research na escolhida, OU pressure-test se o usuário quer estressar antes de
-comprometer, OU voltar ao explore se nenhuma passou]
+### Next step
+[/market-research on the chosen one, OR pressure-test if the user wants to stress it
+before committing, OR back to explore if none passed]
 ```
 
-## Anti-padrões (não fazer)
-- Não marcar como "fato" o que não tem fonte. Inferência marcada está ok.
-- Não fazer 30 buscas no modo normal sem ganho — se precisar de varredura ampla,
-  é sinal de que o convite de pesquisa profunda deveria ter sido feito.
-- Não copiar marketing de concorrente como análise — buscar o que o usuário fala.
-- Não terminar sem ranking e recomendação. Empate é resposta; "precisa de mais
-  pesquisa" sem veredito não é.
-- Não deixar o Channel Fit como suposição quando há evidência de canal disponível.
+## Anti-patterns (don't)
+- Don't mark as "fact" what has no source. A marked inference is fine.
+- Don't run 30 searches in normal mode with no gain; if you need a broad sweep, that's a
+  sign the deep-research invitation should have been made.
+- Don't copy competitor marketing as analysis; look for what users say.
+- Don't finish without a ranking and a recommendation. A tie is an answer; "needs more
+  research" with no verdict isn't.
+- Don't leave Channel Fit as an assumption when channel evidence is available.

@@ -1,87 +1,87 @@
 # Scoring Rubric
 
-Rubrica para os 4 componentes do score. Cada componente vai de 0 a 25 (total 100). Sempre **justificar a nota** com 1-2 frases, não dar nota solta.
+Rubric for the 4 score components. Each component goes from 0 to 25 (total 100). Always **justify the score** in 1-2 sentences; never give a bare number.
 
 ## 1. Demand (0-25)
 
-Existe dor real, frequente e cara o suficiente para mover comportamento?
+Is there real pain, frequent and costly enough to change behavior?
 
-- **0-5**: Solução à procura de problema. Sem sinal de dor. "Seria legal ter."
-- **6-10**: Dor existe mas é leve ou esporádica. Usuários convivem com ela.
-- **11-15**: Dor recorrente em nicho identificado. Workarounds visíveis (planilhas, gambiarras, apps abertos em paralelo).
-- **16-20**: Dor frequente, custosa, com gente já pagando por soluções parciais.
-- **21-25**: Dor aguda, validada por uso ativo de alternativas inadequadas, comunidade reclamando publicamente, gasto comprovado.
+- **0-5**: A solution looking for a problem. No sign of pain. "Would be nice to have."
+- **6-10**: The pain exists but is mild or sporadic. Users live with it.
+- **11-15**: Recurring pain in an identified niche. Visible workarounds (spreadsheets, hacks, apps open side by side).
+- **16-20**: Frequent, costly pain, with people already paying for partial solutions.
+- **21-25**: Acute pain, validated by active use of inadequate alternatives, a community complaining publicly, proven spend.
 
-**Sinais a procurar:** reviews negativos de produtos adjacentes ("eu queria que o Notion fizesse X"), threads em fóruns/Reddit, willingness to pay sinalizada, frequência de uso de alternativas.
+**Signals to look for:** negative reviews of adjacent products ("I wish Notion did X"), forum/Reddit threads, signaled willingness to pay, frequency of use of alternatives.
 
 ## 2. Differentiation (0-25)
 
-A ideia tem diferenciação defensável vs. o que existe, ou é só "mais um"?
+Does the idea have defensible differentiation vs. what exists, or is it just "one more"?
 
-- **0-5**: Replica produto existente sem ângulo novo. Late-mover sem vantagem.
-- **6-10**: Pequena melhoria em produto existente. Fácil de copiar por incumbentes.
-- **11-15**: Ângulo novo (público, UX, integração) mas defensibilidade fraca.
-- **16-20**: Diferencial real (tech, dados, distribuição) com algum moat inicial.
-- **21-25**: Wedge claro + caminho para defensibilidade (network effects, dados proprietários, switching cost alto).
+- **0-5**: Replicates an existing product with no new angle. Late mover with no advantage.
+- **6-10**: Small improvement on an existing product. Easy for incumbents to copy.
+- **11-15**: New angle (audience, UX, integration) but weak defensibility.
+- **16-20**: Real differentiator (tech, data, distribution) with some early moat.
+- **21-25**: Clear wedge + a path to defensibility (network effects, proprietary data, high switching cost).
 
-**Sinais a procurar:** o que incumbentes (Notion, ChatGPT, etc) podem adicionar como feature em 1 sprint? Se sim, score baixo. Existe insight de mercado que os outros não têm?
+**Signals to look for:** what could incumbents (Notion, ChatGPT, etc.) add as a feature in 1 sprint? If they could, score low. Is there a market insight others don't have?
 
 ## 3. Feasibility (0-25)
 
-Dá pra construir um MVP que entrega valor, no nível de recurso disponível?
+Can an MVP that delivers value be built with the resources available?
 
-- **0-5**: Requer tech que não existe, ou equipe/capital que o usuário não tem.
-- **6-10**: Tech existe mas integração é complexa. MVP demora 6+ meses solo.
-- **11-15**: MVP factível em 2-3 meses solo com stack conhecida. Riscos técnicos médios.
-- **16-20**: MVP em semanas, stack madura, riscos técnicos baixos.
-- **21-25**: MVP em dias/poucas semanas, ferramentas prontas, low-code/no-code viável.
+- **0-5**: Requires tech that doesn't exist, or a team/capital the user doesn't have.
+- **6-10**: The tech exists but integration is complex. MVP takes 6+ months solo.
+- **11-15**: MVP feasible in 2-3 months solo with a known stack. Medium technical risks.
+- **16-20**: MVP in weeks, mature stack, low technical risks.
+- **21-25**: MVP in days/a few weeks, off-the-shelf tools, low-code/no-code viable.
 
-**Para vibe coding/projeto solo:** essa dimensão pesa mais. Considerar disponibilidade de APIs, custo de inferência LLM, complexidade de manutenção.
+**For vibe coding/solo projects:** this dimension weighs more. Consider API availability, LLM inference cost, maintenance complexity.
 
 ## 4. Monetization (0-25)
 
-Existe caminho plausível para receita compatível com o custo de operar?
+Is there a plausible path to revenue that covers the cost of operating?
 
-- **0-5**: Audiência sem disposição a pagar, custo unitário alto (ex: muita inferência LLM por usuário gratuito).
-- **6-10**: Monetização possível mas longe (precisa escalar muito primeiro).
-- **11-15**: Modelo plausível (freemium, SaaS) mas pricing não validado.
-- **16-20**: Pricing benchmark existe em produtos similares, audiência paga.
-- **21-25**: WTP comprovado, unit economics positivos desde cedo, múltiplos modelos viáveis.
+- **0-5**: Audience with no willingness to pay, high unit cost (e.g., heavy LLM inference per free user).
+- **6-10**: Monetization possible but distant (needs to scale a lot first).
+- **11-15**: Plausible model (freemium, SaaS) but pricing not validated.
+- **16-20**: Pricing benchmarks exist in similar products, the audience pays.
+- **21-25**: Proven WTP, positive unit economics early on, multiple viable models.
 
-**Para projeto pessoal sem objetivo comercial:** marcar como **N/A** e não somar no score. Total nesse caso é sobre 75. Indicar isso explicitamente.
+**For a personal project with no commercial goal:** mark it **N/A** and don't add it to the score. The total in that case is out of 75. State this explicitly.
 
-## Agregado
+## Aggregate
 
-Soma dos 4 (ou dos 3, se monetization for N/A).
+Sum of the 4 (or the 3, if monetization is N/A).
 
-## Mapeamento para Verdict
+## Mapping to Verdict
 
-| Score (sobre 100) | Verdict |
+| Score (out of 100) | Verdict |
 |---|---|
 | 0-39 | **KILL** |
 | 40-64 | **VALIDATE FIRST** |
 | 65-100 | **BUILD** |
 
-| Score (sobre 75, projeto pessoal) | Verdict |
+| Score (out of 75, personal project) | Verdict |
 |---|---|
 | 0-29 | **KILL** |
 | 30-48 | **VALIDATE FIRST** |
 | 49-75 | **BUILD** |
 
-**Override permitido:** se um único componente é catastrófico (ex: Differentiation = 2 num mercado saturado), o verdict pode ser KILL mesmo com agregado mais alto. Override deve ser explicado.
+**Override allowed:** if a single component is catastrophic (e.g., Differentiation = 2 in a saturated market), the verdict can be KILL even with a higher aggregate. The override must be explained.
 
-## Formato de output do score
+## Score output format
 
 ```
 **Score:**
-- Demand: 18/25 — [justificativa em 1 frase]
-- Differentiation: 9/25 — [justificativa em 1 frase]
-- Feasibility: 20/25 — [justificativa em 1 frase]
-- Monetization: 12/25 — [justificativa em 1 frase]
+- Demand: 18/25 — [1-sentence justification]
+- Differentiation: 9/25 — [1-sentence justification]
+- Feasibility: 20/25 — [1-sentence justification]
+- Monetization: 12/25 — [1-sentence justification]
 - **Total: 59/100**
 
 **Verdict: VALIDATE FIRST**
-1. [Razão 1]
-2. [Razão 2]
-3. [Razão 3]
+1. [Reason 1]
+2. [Reason 2]
+3. [Reason 3]
 ```
